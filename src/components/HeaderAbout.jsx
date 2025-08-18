@@ -73,14 +73,15 @@ export default function HeaderAbout() {
             >
               Connect
             </button>
-            <a
-              href={`${import.meta.env.BASE_URL}Sushma-Resume.pdf`}
-              download="Sushma-Resume.pdf"
-              className="bg-green-900 text-white px-6 py-2 rounded-lg font-semibold shadow hover:bg-green-800 hover:scale-105 transition-all duration-200 focus:ring-4 focus:ring-green-300 border border-green-900 text-base"
-              aria-label="Download resume PDF"
-            >
-              Resume
-            </a>
+          <a
+  href={`${import.meta.env.BASE_URL}Sushma-Resume.pdf`}
+  download="Sushma-Resume.pdf"
+  className="bg-green-900 text-white px-6 py-2 rounded-lg font-semibold shadow hover:bg-green-800 hover:scale-105 transition-all duration-200 focus:ring-4 focus:ring-green-300 border border-green-900 text-base"
+  aria-label="Download resume PDF"
+>
+  Resume
+</a>
+
           </div>
 
           {/* Social Icons */}
