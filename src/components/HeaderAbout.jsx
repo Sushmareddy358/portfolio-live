@@ -76,7 +76,7 @@ export default function HeaderAbout() {
             </button>
           <a
   href={`${import.meta.env.BASE_URL}Sushma-Resume.pdf`}
-  download="Sushma-Resume.pdf"
+  download="Resume.pdf"
   className="bg-green-900 text-white px-6 py-2 rounded-lg font-semibold shadow hover:bg-green-800 hover:scale-105 transition-all duration-200 focus:ring-4 focus:ring-green-300 border border-green-900 text-base"
   aria-label="Download resume PDF"
 >
@@ -88,7 +88,7 @@ export default function HeaderAbout() {
           {/* Social Icons */}
           <div className="flex gap-6 text-xl mb-4 justify-center w-full">
             <a
-              href="https://www.linkedin.com/in/sushma-r126/"
+              href="https://www.linkedin.com/in/sushma-reddy-vutla/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-700 hover:scale-110 transition"

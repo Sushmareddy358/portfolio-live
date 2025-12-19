@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
-const RESUME_PATH = `${import.meta.env.BASE_URL}Sushma-Resume.pdf`;
+const RESUME_PATH = `${import.meta.env.BASE_URL}Resume.pdf`;
 
 export default function ContactFooter() {
   return (
@@ -22,7 +22,7 @@ export default function ContactFooter() {
         <div className="flex justify-center gap-4 mt-4">
           <a
             href={RESUME_PATH}
-            download="Sushma-Resume.pdf"
+            download="Resume.pdf"
             onClick={(e) => e.stopPropagation()}
             className="bg-green-900 text-white px-6 py-2 rounded-lg font-semibold shadow hover:bg-green-800 hover:scale-105 transition-all duration-200 focus:ring-4 focus:ring-green-300 border border-green-900 text-base inline-block"
             aria-label="Download resume PDF"
