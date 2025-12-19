@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { FaCertificate } from "react-icons/fa";
 
 const certifications = [
+  { name: "AWS Certified Developer – Associate", issuer: "Amazon Web Services" },
   { name: "Agile Fundamentals: Scrum & Kanban", issuer: "Udemy" },
   { name: "AWS Essentials", issuer: "Udemy" },
   { name: "DevOps Essentials", issuer: "Udemy" },

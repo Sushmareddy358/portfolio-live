@@ -43,7 +43,7 @@ export default function ContactFooter() {
         {/* Social Icons */}
         <div className="flex justify-center gap-6 text-2xl mt-6">
           <a
-            href="https://www.linkedin.com/in/sushma-reddy-vutla"
+            href="https://www.linkedin.com/in/sushma-r126/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-400"

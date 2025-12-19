@@ -9,15 +9,16 @@ import hrhnextLogo   from "../assets/hrhnext-logo.png";
 const experiences = [
   {
     company: "Spesh Talent",
-    role: "Data Analyst Intern",
+    role: "Software Engineer Intern",
     logo: speshLogo, // ✅ use imported image
     date: "Aug 2024 - Dec 2024",
     points: [
-      "Collected, cleaned, and integrated large datasets from multiple sources using Python (Pandas, NumPy), SQL and ETL pipelines, improving data accuracy by 15%.",
-      "Conducted exploratory data analysis and applied statistical methods using Python (Pandas, Matplotlib, Seaborn, SciPy), generating actionable insights that boosted project efficiency by 10%.",
-      "Developed and maintained interactive dashboards and reports with Tableau, reducing reporting time by 30% and facilitating data-driven decision-making.",
-      "Automated data workflows and quality monitoring using Python scripting and Excel Macros, increasing process efficiency by 20%.",
-      "Collaborated closely with IT consultants and stakeholders via agile workflows (Jira), translating business requirements into data solutions that increased client satisfaction by 20%.",
+      "Contributed to developing and enhancing web application features using ReactJS, Java, and modern frontend best practices",
+      "Supported REST API development and integration using Spring Boot, ensuring reliable communication between application modules",
+      "Assisted in writing and optimizing SQL queries, gaining hands-on experience with database design, performance tuning, and data handling",
+      "Participated in debugging, defect resolution, and UAT support, helping improve application stability and user experience",
+      "Actively engaged in Agile Scrum ceremonies including daily stand-ups, sprint planning, and reviews, contributing to collaborative delivery",
+      "Worked closely with senior engineers, gaining practical exposure to CI/CD pipelines (Git, Jenkins, Maven, Docker) and industry development standards"
     ],
   },
   {
@@ -26,35 +27,12 @@ const experiences = [
     logo: cognizantLogo,
     date: "Mar 2021 – Jun 2023",
     points: [
-      "Developed, maintained, and optimized Java-based microservices and enterprise applications using Java, Spring Boot, SQL, and REST/SOAP APIs, driving greater system reliability and scalability.",
-      "Led application deployments, version upgrades, and patch management across QA, UAT, and production environments, collaborating closely with cross-functional teams and leveraging tools like Git, Maven, ServiceNow, and SoapUI.",
-      "Automated routine processes and reporting workflows with SQL and shell scripting, reducing manual effort and improving overall delivery speed and data accuracy.",
-      "Enhanced system performance and uptime by tuning SQL queries, refactoring legacy code, managing dependency upgrades, and proactively addressing security and compliance requirements.",
-      "Strengthened incident management, root cause analysis, and production support by implementing robust exception handling, centralized logging (SLF4J, Log4j), and detailed Standard Operating Procedures (SOPs).",
-      "Collaborated in Agile/Scrum teams to deliver business solutions, support change management, and drive continuous improvement across the full software development lifecycle (SDLC)."
-    ],
-  },
-  {
-    company: "HRH Next",
-    role: "Data Analyst",
-    logo: hrhnextLogo,
-    date: "May 2020 – Feb 2021",
-    points: [
-      "Automated and streamlined reporting by building Power BI and Excel dashboards from SQL-sourced, multi-source data.",
-      "Conducted statistical analysis in Python (Pandas, NumPy) to deliver actionable insights and business recommendations.",
-      "Improved data accuracy and accessibility through advanced data cleaning, integration, and workflow optimization."
-    ],
-  },
-  {
-    company: "HRH Next",
-    role: "Data Analyst Intern",
-    logo: hrhnextLogo,
-    date: "Dec 2019 – Apr 2020",
-    points: [
-      "Cleaned and validated datasets using SQL, Python (Pandas), improving reporting accuracy by 20%.", 
-      "Conducted EDA and statistical analysis in Python to uncover trends and anomalies in sales and customer data.", 
-      "Developed interactive Tableau dashboards that automated recurring reports and cut manual effort by 30%.",
-       "Supported team collaboration by using Git for version control of SQL scripts and Python notebooks.",
+       "Developed and maintained scalable web applications using Java, Spring Boot, REST APIs, and ReactJS",
+       "Designed, consumed, and integrated APIs with enterprise backend systems",
+       "Worked with SQL Server to write queries, joins, and stored procedures for application functionality",
+       "Supported defect resolution, production support, and ongoing maintenance activities",
+       "Collaborated with QA, Business Analysts, and cross-functional teams in Agile Scrum environment",
+       "Contributed to deployments across Dev, QA, UAT, and Production environments using CI/CD tools"
     ],
   },
 ];

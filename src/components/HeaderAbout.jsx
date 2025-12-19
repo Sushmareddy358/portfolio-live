@@ -59,7 +59,8 @@ export default function HeaderAbout() {
         {/* Content (right) */}
         <div className="flex flex-col justify-center max-w-2xl w-full mt-6 md:mt-0 items-center">
           <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-green-900 mb-1 md:mb-3 text-center w-full">
-            Sushma Reddy Vutla
+            Sushma Reddy
+            
           </h1>
           <p className="text-base sm:text-lg md:text-xl font-medium text-[#22713e] opacity-80 mb-2 min-h-[30px] transition-all duration-500 text-center w-full">
             {roles[currentRole]}
@@ -87,7 +88,7 @@ export default function HeaderAbout() {
           {/* Social Icons */}
           <div className="flex gap-6 text-xl mb-4 justify-center w-full">
             <a
-              href="https://www.linkedin.com/in/sushma-reddy-vutla/"
+              href="https://www.linkedin.com/in/sushma-r126/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-700 hover:scale-110 transition"

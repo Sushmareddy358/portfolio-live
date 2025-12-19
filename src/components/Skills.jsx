@@ -15,85 +15,135 @@ const badgeClasses =
 
 const skills = [
   {
-    category: "Programming & Scripting",
+    category: "Languages",
     icon: <Code className="text-[#22713e]" size={17} />,
     items: [
-      { name: "Java" },
-      { name: "Python" },
+      { name: "Java (8/11)" },
+      { name: "J2EE" },
       { name: "SQL" },
-      { name: "R" },
-      { name: "Shell Scripting" },
+      { name: "JSON" },
+      { name: "JDBC" },
+      { name: "Servlets" },
     ],
   },
+
   {
-    category: "Data Engineering & Big Data",
+    category: "Frameworks",
     icon: <Layers className="text-[#22713e]" size={17} />,
     items: [
-      { name: "ETL Development" },
-      { name: "DBT" },
-      { name: "Kafka" },
-      { name: "Hadoop Ecosystem" },
+      { name: "Spring Boot" },
+      { name: "Spring MVC" },
+      { name: "Hibernate" },
+      { name: "Spring Core" },
+      { name: "Spring Web Services" },
+      { name: "REST APIs" },
+      { name: "SOAP APIs" },
     ],
   },
+
   {
-    category: "Databases & Data Management",
-    icon: <Database className="text-[#22713e]" size={17} />,
-    items: [
-      { name: "MySQL" },
-      { name: "SQL Server" },
-      { name: "Oracle" },
-      { name: "MongoDB" },
-    ],
-  },
-  {
-    category: "Analytics & Reporting",
-    icon: <BarChart2 className="text-[#22713e]" size={17} />,
-    items: [
-      { name: "Power BI" },
-      { name: "Tableau" },
-      { name: "QuickSight" },
-      { name: "Excel" },
-      { name: "Jupyter" },
-    ],
-  },
-  {
-    category: "Software Development & Frameworks",
+    category: "Web Technologies",
     icon: <Settings className="text-[#22713e]" size={17} />,
     items: [
-      { name: "Spring Boot" },
-      { name: "Hibernate" },
-      { name: "REST/SOAP API Development" },
-      { name: "Maven" },
+      { name: "ReactJS" },
+      { name: "React Hooks" },
+      { name: "JavaScript" },
+      { name: "HTML5" },
+      { name: "CSS3" },
+      { name: "Bootstrap" },
+      { name: "Responsive UI" },
     ],
   },
+
   {
-    category: "Testing & Automation",
-    icon: <ListChecks className="text-[#22713e]" size={17} />,
-    items: [{ name: "Selenium" }],
+    category: "Databases",
+    icon: <Database className="text-[#22713e]" size={17} />,
+    items: [
+      { name: "SQL Server" },
+      { name: "MySQL" },
+      { name: "MongoDB" },
+      { name: "Oracle" },
+    ],
   },
+
   {
-    category: "Cloud & DevOps",
+    category: "Cloud",
     icon: <Cloud className="text-[#22713e]" size={17} />,
     items: [
-      { name: "AWS" },
-      { name: "GCP" },
-      { name: "Azure" },
-      { name: "Jenkins" },
-      { name: "Docker" },
-      { name: "Kubernetes" },
+      { name: "AWS (EC2, S3, RDS, IAM)" },
+      { name: "CI/CD Integration" },
     ],
   },
+
   {
-    category: "Development Tools & Practices",
+    category: "DevOps & Build",
     icon: <GitBranch className="text-[#22713e]" size={17} />,
     items: [
       { name: "Git" },
-      { name: "Linux" },
-      { name: "ServiceNow" },
-      { name: "Eclipse (IDE)" },
-      { name: "Agile & Scrum" },
-      { name: "SDLC" },
+      { name: "GitHub" },
+      { name: "Bitbucket" },
+      { name: "Maven" },
+      { name: "Jenkins" },
+      { name: "Docker" },
+    ],
+  },
+
+  {
+    category: "Tools & Platforms",
+    icon: <Settings className="text-[#22713e]" size={17} />,
+    items: [
+      { name: "IntelliJ IDEA" },
+      { name: "VS Code" },
+      { name: "Eclipse" },
+      { name: "Postman" },
       { name: "JIRA" },
+      { name: "Apache Tomcat" },
+      { name: "IBM WebSphere" },
+    ],
+  },
+
+  {
+    category: "Testing & Quality",
+    icon: <ListChecks className="text-[#22713e]" size={17} />,
+    items: [
+      { name: "JUnit" },
+      { name: "Postman API Testing" },
+      { name: "Debugging" },
+      { name: "Performance Troubleshooting" },
+    ],
+  },
+
+  {
+    category: "Development Practices",
+    icon: <GitBranch className="text-[#22713e]" size={17} />,
+    items: [
+      { name: "Agile / Scrum" },
+      { name: "TDD" },
+      { name: "Unit & Integration Testing" },
+      { name: "Monitoring & Logging" },
+      { name: "Root Cause Analysis (RCA)" },
+      { name: "Code Reviews" },
+      { name: "Clean Code" },
+    ],
+  },
+
+  {
+    category: "Analytics & Visualization",
+    icon: <BarChart2 className="text-[#22713e]" size={17} />,
+    items: [
+      { name: "Python" },
+      { name: "Tableau" },
+      { name: "Hadoop" },
+    ],
+  },
+
+  {
+    category: "Operating Systems",
+    icon: <Settings className="text-[#22713e]" size={17} />,
+    items: [
+      { name: "Windows" },
+      { name: "Linux" },
+      { name: "UNIX" },
     ],
   },
 ];
@@ -109,6 +159,7 @@ export default function Skills() {
           <h2 className="text-3xl font-bold mb-6 text-center tracking-tight text-green-900">
             Skills
           </h2>
+
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
             {skills.map(({ category, icon, items }) => (
               <div
@@ -120,6 +171,7 @@ export default function Skills() {
                   <span className="group-hover:animate-bounce">{icon}</span>
                   <span className="font-medium">{category}</span>
                 </div>
+
                 <div className="flex flex-wrap gap-2">
                   {items.map((item) => (
                     <span key={item.name} className={badgeClasses}>
@@ -127,6 +179,7 @@ export default function Skills() {
                     </span>
                   ))}
                 </div>
+
               </div>
             ))}
           </div>
