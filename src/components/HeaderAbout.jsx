@@ -88,7 +88,7 @@ export default function HeaderAbout() {
           {/* Social Icons */}
           <div className="flex gap-6 text-xl mb-4 justify-center w-full">
             <a
-              href="https://www.linkedin.com/in/sushma-reddy-vutla/"
+              href="https://www.linkedin.com/in/sushma-r126/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-700 hover:scale-110 transition"
