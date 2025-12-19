@@ -4,7 +4,7 @@ import React from "react";
 import speshLogo     from "../assets/spesh-talent-logo.png";
 import cognizantLogo from "../assets/cognizant-logo.png";
 import hrhnextLogo   from "../assets/hrhnext-logo.png";
-import pateamLogo    from "../assets/pateam-logo.png";
+//import pateamLogo    from "../assets/pateam-logo.png";
 
 const experiences = [
   {
@@ -46,15 +46,15 @@ const experiences = [
     ],
   },
   {
-    company: "PAteam",
-    role: "Data Engineer Intern",
-    logo: pateamLogo,
+    company: "HRH Next",
+    role: "Data Analyst Intern",
+    logo: hrhnextLogo,
     date: "Dec 2019 – Apr 2020",
     points: [
-      "Engineered and automated data pipelines using SQL and Python (Pandas), enabling smooth integration and transformation of complex datasets for analytics and reporting.",
-      "Elevated data quality standards by developing Python-based validation scripts and troubleshooting discrepancies, ensuring accuracy and reliability in every deliverable.",
-      "Optimized data workflows through collaboration with senior engineers, using SQL tuning and performance analysis to accelerate dashboard insights in Power BI and Excel.",
-      "Authored clear technical documentation and visual process maps, supporting rapid onboarding and cross-team collaboration for future data and analytics projects."
+      "Cleaned and validated datasets using SQL, Python (Pandas), improving reporting accuracy by 20%.", 
+      "Conducted EDA and statistical analysis in Python to uncover trends and anomalies in sales and customer data.", 
+      "Developed interactive Tableau dashboards that automated recurring reports and cut manual effort by 30%.",
+       "Supported team collaboration by using Git for version control of SQL scripts and Python notebooks.",
     ],
   },
 ];
